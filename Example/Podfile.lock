@@ -1,0 +1,16 @@
+PODS:
+  - BasicStoryBoardSDK (0.1.0)
+
+DEPENDENCIES:
+  - BasicStoryBoardSDK (from `../`)
+
+EXTERNAL SOURCES:
+  BasicStoryBoardSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BasicStoryBoardSDK: 73c71e97c88ea0e65915d85990ceae9e059beb1b
+
+PODFILE CHECKSUM: 326fdf1feaa0b7f655504e7510b79ea1474e2291
+
+COCOAPODS: 1.10.1

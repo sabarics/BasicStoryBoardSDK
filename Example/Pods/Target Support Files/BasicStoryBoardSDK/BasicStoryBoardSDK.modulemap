@@ -1,0 +1,6 @@
+framework module BasicStoryBoardSDK {
+  umbrella header "BasicStoryBoardSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

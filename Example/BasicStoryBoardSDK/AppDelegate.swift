@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import BasicStoryBoardSDK
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -16,6 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+       
+        let bundle = Bundle(for: LoginController.self)
+        let sb = UIStoryboard(name: "Authentication", bundle: bundle)
+        let viewController = sb.instantiateViewController(withIdentifier: "LoginController") as! LoginController
+        let navigation = UINavigationController(rootViewController: viewController)
+        window?.rootViewController = navigation
         return true
     }
 
