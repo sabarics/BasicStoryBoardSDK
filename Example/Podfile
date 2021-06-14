@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'BasicStoryBoardSDK_Example' do
+  pod 'BasicStoryBoardSDK', :path => '../'
+
+  target 'BasicStoryBoardSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
