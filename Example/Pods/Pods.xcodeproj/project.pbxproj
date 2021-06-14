@@ -15,6 +15,7 @@
 		74891C512677151500F6A991 /* TestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74891C502677151500F6A991 /* TestFile.swift */; };
 		74891C57267715E500F6A991 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74891C55267715E500F6A991 /* LoginController.swift */; };
 		74891C58267715E500F6A991 /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74891C56267715E500F6A991 /* Authentication.storyboard */; };
+		74891C662677210900F6A991 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74891C652677210800F6A991 /* Assets.xcassets */; };
 		A93AB9E2DC8312494B5C78D8F9F287EE /* Pods-BasicStoryBoardSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CC8D0CBB0C03F0C09CD93BD0F2E51A /* Pods-BasicStoryBoardSDK_Example-dummy.m */; };
 		C69AAE7C72BDDC219D146FC55BA03887 /* BasicStoryBoardSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F6BF20E278A2294F48C6C1718257B0B /* BasicStoryBoardSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D829A1956B19679B0A24F74B68B61986 /* BasicStoryBoardSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1EA11235F90A430BB7EB61588A790C /* BasicStoryBoardSDK-dummy.m */; };
@@ -60,6 +61,7 @@
 		74891C502677151500F6A991 /* TestFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TestFile.swift; path = BasicStoryBoardSDK/Classes/TestFile.swift; sourceTree = "<group>"; };
 		74891C55267715E500F6A991 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginController.swift; path = BasicStoryBoardSDK/Classes/LoginController.swift; sourceTree = "<group>"; };
 		74891C56267715E500F6A991 /* Authentication.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Authentication.storyboard; path = BasicStoryBoardSDK/Classes/Authentication.storyboard; sourceTree = "<group>"; };
+		74891C652677210800F6A991 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = BasicStoryBoardSDK/Assets/Assets.xcassets; sourceTree = "<group>"; };
 		7C5B738AC356F06396F8C7CBA59BF9B8 /* Pods-BasicStoryBoardSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BasicStoryBoardSDK_Tests-Info.plist"; sourceTree = "<group>"; };
 		8F6BF20E278A2294F48C6C1718257B0B /* BasicStoryBoardSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BasicStoryBoardSDK-umbrella.h"; sourceTree = "<group>"; };
 		95EA762F47CBD28FE1C563649429F0CA /* Pods-BasicStoryBoardSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BasicStoryBoardSDK_Example.modulemap"; sourceTree = "<group>"; };
@@ -224,6 +226,7 @@
 				74891C502677151500F6A991 /* TestFile.swift */,
 				74891C56267715E500F6A991 /* Authentication.storyboard */,
 				74891C55267715E500F6A991 /* LoginController.swift */,
+				74891C652677210800F6A991 /* Assets.xcassets */,
 			);
 			name = BasicStoryBoardSDK;
 			path = ../..;
@@ -368,6 +371,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74891C662677210900F6A991 /* Assets.xcassets in Resources */,
 				74891C58267715E500F6A991 /* Authentication.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

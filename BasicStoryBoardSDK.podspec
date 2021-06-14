@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BasicStoryBoardSDK'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of my BasicStoryBoardSDK.'
   s.description  = 'A short description of BasicStoryBoardSDK.'
   s.homepage         = 'https://github.com/sabarics/BasicStoryBoardSDK'
@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
 
   s.source_files = 'BasicStoryBoardSDK/Classes/**/*'
+  s.resources = 'BasicStoryBoardSDK/Assets/**/*'
   
   # s.resource_bundles = {
   #   'BasicStoryBoardSDK' => ['BasicStoryBoardSDK/Assets/*.png']
